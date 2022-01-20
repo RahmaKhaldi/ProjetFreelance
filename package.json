@@ -1,0 +1,16 @@
+{
+  "name": "projete-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd Back-end && npx nodemon app.js\" \" cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "concurrently": "^7.0.0"
+  }
+}
